@@ -24,8 +24,16 @@ main {
 }
 
 .header-title {
+  color: hsl(24, 5%, 18%);
   font-family: 'Young Serif';
   font-size: 40px;
   font-weight: 100;
+  margin-bottom: 32px;
+}
+
+.recipe-summary-text {
+  color: hsl(30, 10%, 34%);
+  font-family: 'outfit';
+  line-height: 1.5;
   margin-bottom: 32px;
 }
