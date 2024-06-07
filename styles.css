@@ -39,18 +39,6 @@ ol li::marker {
   font-weight: bold;
 }
 
-/*
-tr td {
-  border-bottom: 1px solid hsl(30, 18%, 87%);
-  border: 1px solid red;
-}
-
-tr td:nth-child(2) {
-  color: hsl(332, 51%, 32%);
-  font-weight: bold;
-}
-*/
-
 /* CLASS SELECTORS */
 
 .hero-img {
@@ -109,6 +97,12 @@ tr td:nth-child(2) {
   padding-bottom: 32px;
 }
 
+.sub-container:last-of-type {
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 .sub-list,
 .ordered-list {
   font-family: 'outfit';
@@ -125,10 +119,31 @@ tr td:nth-child(2) {
   line-height: 1.75;
 }
 
-.nutrition {
-  display: flex;
-  border: 1px solid blue;
-  align-items: center;
-  justify-content: center;
-  /* border-bottom: 1px solid hsl(30, 18%, 87%); */
+table {
+  /* border-spacing: 30px; */
+  width: 100%;
+  margin-top: 10px;
+  font-family: inherit;
+  color: red;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 20px;
+  font-family: 'outfit';
+  color: hsl(30, 10%, 34%);
+  margin: 20px 0;
+}
+
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+tr:last-child {
+  border: none;
+}
+
+tr td:nth-child(2) {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
 }
